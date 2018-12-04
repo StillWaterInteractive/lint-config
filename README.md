@@ -10,7 +10,7 @@ Our code style can be summed up as:
 
 - Indent lines with spaces, not tabs
 - Use single quotes, not double
-- Spaces betweens brackets in object literals
+- Spaces between brackets in object literals
 - Semi-colons at the end of statements
 - No trailing commas
 - Don't include parenthesis around a sole arrow function parameter
