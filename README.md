@@ -17,13 +17,11 @@ Our code style can be summed up as:
 
 ## Usage
 
-Clone the repo:
+Clone the repo (or alternatively, just download a zip from Github):
 
 ```
 git clone git@github.com:StillWaterInteractive/lint-config.git
 ```
-
-Or alternatively, just download a zip from Github.
 
 Then copy the `package.json` and dotfiles into the new project, and install dependencies:
 
@@ -32,3 +30,11 @@ yarn install
 ```
 
 And you're good to go!
+
+## 🔺 Note
+
+If you're integrating linting into an existing project and don't want to copy files over, you can just run the following command to install the required dependencies:
+
+```
+yarn add eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react husky lint-staged prettier -D
+```
